@@ -1,0 +1,80 @@
+.header{
+  /* border:1px solid red; */
+  display: table;
+}
+.header_row{
+      display: table-cell;
+      /* background-color: grey; */
+      vertical-align: middle;
+}
+.text-primary{
+    color: #409eff;
+}
+.text-success{
+    color: #67c23a;
+}
+.text-warning{
+	text-color:#cf9236;
+}
+.text-danger{
+    color: #dd6161;
+}
+
+.box_shadow{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+.box_padding_10{
+  box-sizing: border-box;
+  padding:10px;
+}
+.text_vertical{
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-indent: 1em;
+  letter-spacing: 0.3em;
+}
+.white_space{
+  white-space: normal;
+}
+.color666{
+  color: #666666;
+}
+.silver_linerBg{
+  background-image: linear-gradient(145deg,#ddd, #fff);
+}
+.silver_bottomBorder{
+  border-bottom:1px solid #2F3337;
+}
+.silver_bottomBorder2{
+  border-bottom:2px solid #2F3337;
+}
+.silver_bottomBorder999 {
+  border-bottom: 1px solid #999;
+}
+/* table超出隐藏 */
+.ellipsis{
+  max-width:10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.inputdata_topItem{
+  display: inline-block;
+}
+
+.inputdata_dateBox{
+  display: inline-block;
+}
+
+.el-table--medium th, .el-table--medium td {
+      padding: 5px 0;
+  }
+  .el-form-item--mini.el-form-item {
+      margin-bottom: 0px;
+  }
+.pagination-container {
+    padding: 0px 16px;
+    margin-top: 10px;
+}
